@@ -1,3 +1,4 @@
-module github.com/bnema/gobrightlock
+module github.com/bnema/SwayIdleBrightLock
 
 go 1.20
+
