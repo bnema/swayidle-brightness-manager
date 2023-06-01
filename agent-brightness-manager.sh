@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the path to the Go program
-go_program="SwayIdleBright"
+go_program="./swayidle-brightness-manager"
 
 # Define a timer in seconds
 timer=30
