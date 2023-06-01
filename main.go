@@ -9,6 +9,7 @@ import (
 	"strings"
 )
 
+// Define the path to the file that stores the brightness
 const brightnessFile = "/tmp/brightness"
 
 func runCmd(name string, arg ...string) (string, error) {
