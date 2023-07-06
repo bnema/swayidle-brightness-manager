@@ -17,3 +17,20 @@ This tiny Go application is a utility for Hyprland or Sway that get your actual 
 - `swaylock` 
 - `brightnessctl`
 - `playerctl`
+
+## Service example
+
+```bash
+
+[Unit]
+Description=Sway Idle Brightness Manager
+
+[Service]
+Environment=PATH=/home/YOURUSERNAME/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/u>
+ExecStart=/bin/bash %h/.local/bin/agent-brightness-manager.sh
+Restart=always
+
+[Install]
+WantedBy=default.target
+
+```
