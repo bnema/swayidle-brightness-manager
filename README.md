@@ -15,3 +15,5 @@ This tiny Go application is a utility for Hyprland or Sway that get your actual 
 - `Sway or Hyprland`
 - `swayidle` 
 - `swaylock` 
+- `brightnessctl`
+- `playerctl`
