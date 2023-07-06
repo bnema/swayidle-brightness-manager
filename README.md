@@ -8,6 +8,7 @@ This tiny Go application is a utility for Hyprland or Sway that get your actual 
 - Decreases the screen brightness to 10% after 30 seconds of idle time.
 - Restores the brightness to its original level upon resuming activity.
 - Ensures that the screen is locked before the system goes to sleep.
+- Prevent dimming the screen if the user is watching a video.
 
 ## Pre-requisites
 
