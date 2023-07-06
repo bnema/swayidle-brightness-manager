@@ -26,7 +26,7 @@ This tiny Go application is a utility for Hyprland or Sway that get your actual 
 Description=Sway Idle Brightness Manager
 
 [Service]
-Environment=PATH=/home/YOURUSERNAME/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/u>
+Environment=PATH=/home/YOURUSERNAME/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 ExecStart=/bin/bash %h/.local/bin/agent-brightness-manager.sh
 Restart=always
 
